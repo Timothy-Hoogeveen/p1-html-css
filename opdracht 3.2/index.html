@@ -1,0 +1,73 @@
+<form action="results.html" method="GET" enctype="multipart/form-data">
+  <div>
+    <label for="name">Voornaam</label>
+    <input type="text" name="name" id="name" required>
+</div>
+<div>
+  <label for="name">Achternaam</label>
+  <input type="text" name="name" id="name" required>
+</div>
+  Geslacht
+  <div>
+    <label for="male">Man</label>
+    <input type="radio" name="gender" id="male" value="male">
+  </div>
+  <div>
+    <label for="female">Vrouw</label>
+    <input type="radio" name="gender" id="female" value="female">
+  </div>
+  <div>
+      <label for="name">Adres</label>
+      <input type="text" name="name" id="name" required>
+  </div>
+  <div>
+      <label for="name">Postcode</label>
+      <input type="text" name="name" id="name" required>
+  </div>
+  <div>
+      <label for="name">Stad</label>
+      <input type="text" name="name" id="name" required>
+  </div>
+  <div>
+      <label for="name">Land</label>
+      <input type="text" name="name" id="name" required>
+  </div>
+<div>
+    <label for="phone">BSN-Nummer</label>
+    <input type="tel" name="phone" id="phone">
+  </div>
+<div>
+  <label for="vakantieland">Vakantielanden</label>
+  <select name="vakantieland" id="vakantieland" multiple>
+<option value="Frankrijk">Frankrijk</option>
+<option value="Japan">Japan</option>
+<option value="Amerika">Amerika</option>
+<option value="Spanje">Spanje</option>
+
+  </select>
+</div>
+<div>
+  <label for="date">Vertrek datum</label>
+  <input type="date" name="date" id="date" min="2022-09-10">
+</div>
+<div>
+  <label for="date">Terugkomst datum</label>
+  <input type="date" name="date" id="date">
+</div>
+<div>
+  <label for="number">Aantal reizigers</label>
+  <input type="number" name="number" min="0" max="4">
+</div>
+<div>
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" required>
+</div>
+<div>
+  <label>
+   Wachtwoord
+    <input type="password" name="password" required>
+  </label>
+</div>
+
+<button type="submit">Boek nu</button>
+</form>
